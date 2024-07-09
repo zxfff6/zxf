@@ -65,6 +65,6 @@ void MainWindow::on_pushButton_2_clicked()
 {
     QTimer *timer3=new QTimer(this);
     connect(timer3,SIGNAL(timeout()),this,SLOT(timerUpdate3()));
-    timer3->start(1000);
+    timer3->start(2000);
 }
 
